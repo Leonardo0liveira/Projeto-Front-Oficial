@@ -28,6 +28,21 @@
     text-align: left;
     max-height: 120px;
 }
+
+.navbar-expand-lg{
+    background-color: #2c6386 ;
+    max-height: 100px;
+}
+
+.nav-item .nav-link{
+    color: #fff;
+    font-weight: 650;
+}
+
+.headers, .navbar-expand-lg{
+    display: inline-block;
+}
+
 .container {
     display: flex; 
     align-items: flex-start; 
