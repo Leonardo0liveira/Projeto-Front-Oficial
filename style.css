@@ -1,3 +1,4 @@
+/** Página home **/
 *{
     margin: 0;
     padding: 0;
@@ -43,6 +44,107 @@
     display: inline-block;
 }
 
-/** comentando só pra deixar bonitinho no github
+/** Página de pesquisas  **/
 
+.container .imagemTitulo01 img,
+.container .imagemTitulo02 img,
+.container .imagemTitulo03 img {
+    max-width: 400px; 
+    margin-right: 20px; 
+}
+
+
+.container .imagemTitulo01 h2,
+.container .imagemTitulo02 h2,
+.container .imagemTitulo03 h2 {
+    margin: 0; 
+}
+
+
+.container .imagemTitulo01 p,
+.container .imagemTitulo02 p,
+.container .imagemTitulo03 p {
+    margin: 0; 
+}
+
+/** pesquisadores **/
+
+.conteudo {
+    display: flex; 
+    align-items: 200px; 
+}
+
+.docente{
+    text-align: center;
+    margin-top: 70px;
+    color: #1a3652;
+}
+.pesquisador1{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    display:flex;
+    
+}
+.pesquisador2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    display:flex;
+}
+.pesquisador3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    display:flex;
+}
+.pesquisador4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    display:flex;
+}
+.img-usuario{
+    border: 1px solid #000; 
+    margin-right: 20px;
+}
+.flip-card{
+    height: 140px;
+    width: 140px; 
+    perspective: 1000px;
+}
+.flip-card-inner{
+    position: relative;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner{
+    transform:rotateY(-180 deg);
+}
+.flip-card .flip-card-back{
+    transform:rotateY(-180 deg);
+}
+.flip-card-back,.flip-card-front{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.flip-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/** infraestrutura **/
+
+.infra{
+    display: inline-block;
+    margin-left: 20px;
+} 
+
+.tamanho{
+    width: 300px;
+    height: 300px;
+}
+
+
+/** Noticias **/
 
