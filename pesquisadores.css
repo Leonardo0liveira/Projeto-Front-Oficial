@@ -1,0 +1,99 @@
+
+.div{
+    float: left;
+    width: 50%;
+    align-self: center;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.logo{
+    height: 140px;
+    width: auto;    
+}
+
+.header {
+    background-color: #2c6386;
+    text-align: left;
+    max-height: 120px;
+}
+
+.navbar-expand-lg{
+    background-color: #2c6386 ;
+    max-height: 100px;
+}
+
+.nav-item .nav-link{
+    color: #fff;
+    font-weight: 650;
+    text-align: center;
+}
+
+
+.conteudo {
+    display: flex; 
+    align-items: 200px; 
+}
+
+.docente{
+    text-align: center;
+    margin-top: 70px;
+    color: #1a3652;
+}
+.pesquisador1{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    display:flex;
+    
+}
+.pesquisador2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    display:flex;
+}
+.pesquisador3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    display:flex;
+}
+.pesquisador4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    display:flex;
+}
+.img-usuario{
+    border: 1px solid #000; 
+    margin-right: 20px;
+}
+.flip-card{
+    height: 140px;
+    width: 140px; 
+    perspective: 1000px;
+}
+.flip-card-inner{
+    position: relative;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner{
+    transform:rotateY(-180 deg);
+}
+.flip-card .flip-card-back{
+    transform:rotateY(-180 deg);
+}
+.flip-card-back,.flip-card-front{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.flip-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
