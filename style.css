@@ -4,11 +4,20 @@
     padding: 0;
 }
 
-.divc{
-    float: left;
+.divb{
+    float: center;
     width: 50%;
     align-self: center;
     height: 100px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.divc{
+    float: center;
+    width: 50%;
+    align-self: center;
+    height: 50px;
     align-items: center;
     text-align: center;
     margin: auto;
@@ -50,6 +59,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    background-color: #a0aeb0;
 }
 
 /** Página de pesquisas  **/
@@ -118,14 +128,14 @@
 }
 
 .footerPI{
-
     width: 100%;
     height: 100px;
     position: bottom;
     bottom: 0;
     left: 0;
-    
-} /** footer PI é o footer da página de pesquisadores e de infraestrutura, as duas páginas precisaram de um footer adaptado**/
+    background-color: #a0aeb0;
+} 
+/** footer PI é o footer da página de pesquisadores e de infraestrutura, as duas páginas precisaram de um footer adaptado**/
 
 
 /** infraestrutura **/
