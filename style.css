@@ -33,9 +33,12 @@
     }
 }
 
+
 .logo{
-    height: auto;
-    width: auto;    
+    height: 120px;
+    width: 710px;   
+    display: none; 
+    
 }
 
 .logo, .nome{
@@ -159,6 +162,8 @@
     width: 300px;
     height: 300px;
 }
+
+
 
 
 /** Noticias **/
