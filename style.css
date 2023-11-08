@@ -5,22 +5,32 @@
 }
 
 .divb{
-    float: center;
+    
     width: 50%;
-    align-self: center;
-    height: 100px;
+    
+    
     align-items: center;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }
 .divc{
-    float: center;
+    
     width: 50%;
-    align-self: center;
-    height: 50px;
+    
+    
     align-items: center;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
+}
+
+@media (max-width: 700px){
+    .divc{
+        padding: 10px;
+    }
+
+    .divb{
+        padding: 10px;
+    }
 }
 
 .logo{
@@ -152,4 +162,6 @@
 
 
 /** Noticias **/
+
+
 
