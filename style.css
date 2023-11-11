@@ -41,6 +41,7 @@ body{
   nav .navbar .nav-links{
     line-height:95px;
     height: 100%;
+    /* align-items: center; */
   }
   nav .navbar .links{
     display: flex;
@@ -126,7 +127,7 @@ body{
   }
   
   .navbar .nav-links .sidebar-logo{
-    display: flex;
+    display: none;
   }
   .navbar .bx-menu{
     display: none;
@@ -254,45 +255,103 @@ body{
   } 
   }
   
+.textos{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   
+}
 
-.divb{
-    float: center;
-    width: 50%;
+.divd{
+    
+    float: right;
+    width: 33.33%;
     align-self: center;
-    height: 120px;
+    height: 90px;
+    align-items: center;
+    text-align: center;
+    margin: auto;    
+    
+}
+
+.dive{
+    
+    float: left;
+    width: 33.33%;
+    align-self: center;
+    height: 90px;
     align-items: center;
     text-align: center;
     margin: auto;
-    padding-top: 15%;
+    
     
 }
 
 .divc{
-    float: left;
-    width: 50%;
+    
+    float: center;
+    width: 33.33%;
     align-self: center;
-    height: 120px;
+    height: 90px;
     align-items: center;
     text-align: center;
     margin: auto;
-    flex-direction: row;
     
 }
 
 
-@media (max-width: 800px){
-    .divc{
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
+@media (max-width: 700px){
+    .textos{
+      flex-direction: column;
+      padding: 30px;
+      /* padding-bottom: 130px; */
     }
 
-    .divb{
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
+    .dive{
+      width: 100%;
+      padding-bottom: 90px;
+      padding-top: 50px;
+    }  
+
+    .divc{
+      width: 100%;
+      padding-bottom: 50px;
+      padding-top: 50px;
     }
+
+    .divd{
+      width: 100%;
+      padding-top: 50px;
+    }
+
+    .logonav{
+      display: none;
+    }
+}
+
+@media (max-width: 400px){
+  .textos{
+    flex-direction: column;
+    padding: 30px;
+    /* padding-bottom: 130px; */
+  }
+
+  .dive{
+    width: 100%;
+    padding-bottom: 120px;
+    padding-top: 50px;
+  }  
+
+  .divc{
+    width: 100%;
+    padding-bottom: 80px;
+    padding-top: 50px;
+  }
+
+  .divd{
+    width: 100%;
+    padding-top: 80px;
+  }
 }
 
 
@@ -335,6 +394,7 @@ body{
     background-color: #a0aeb0;
     text-align: center;
     align-items: center;
+    padding-top: 20px;
 }
 
 .anwh{
@@ -343,6 +403,7 @@ body{
 }
 
 /** Página de pesquisas  **/
+
 
 .apresentacao{
   background-image: url(Fundo.jpg);
@@ -415,8 +476,6 @@ body{
   margin-right: 0;
 
 }
-
-
 /** pesquisadores **/
 
 .conteudo {
