@@ -489,53 +489,79 @@ width: 100%;
 }
 /** pesquisadores **/
 
+
 .conteudo {
-    display: flex; 
-    align-items: 200px; 
+  display: flex; 
+  align-items: 200px; 
 }
 
 .docente{
-    text-align: center;
-    margin-top: 70px;
-    color: #1a3652;
+  text-align: center;
+  margin-top: 70px;
+  color: #1a3652;
 }
 .pesquisador1{
-    margin-top: 70px;
-    margin-bottom: 40px;
-    margin-left: 70px;
-    display:flex;
-    
+  margin-top: 70px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display:flex;
+  
 }
 .pesquisador2{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 70px;
-    display:flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display:flex;
 }
 .pesquisador3{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 70px;
-    display:flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display:flex;
 }
 .pesquisador4{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 70px;
-    display:flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display:flex;
+}
+.pesquisador5{
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left: 70px;
+margin-right: 70px;
+display:flex;
+}
+.pesquisador6{
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left: 70px;
+margin-right: 70px;
+display:flex;
+}
+.pesquisador7{
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left: 70px;
+margin-right: 70px;
+display:flex;
 }
 .img-usuario{
-    border: 1px solid #000; 
-    margin-right: 20px;
+  border: 1px solid #000; 
+  margin-right: 20px;
 }
 
 .footerPI{
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: #a0aeb0;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #a0aeb0;
 } 
 /** footer PI é o footer da página de pesquisadores e de infraestrutura, as duas páginas precisaram de um footer adaptado**/
 
