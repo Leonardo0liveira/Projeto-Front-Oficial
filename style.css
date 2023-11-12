@@ -45,7 +45,7 @@ body{
   }
   
   nav .navbar .nav-links{
-    line-height:95px;
+    line-height:99px;
     height: 100%;
     /* align-items: center; */
   }
@@ -328,14 +328,14 @@ body{
 
     .dive{
       width: 100%;
-      padding-bottom: 90px;
+      padding-bottom: 112px;
       padding-top: 50px;
     }  
 
     .divc{
       width: 100%;
       padding-bottom: 50px;
-      padding-top: 50px;
+      padding-top: 55px;
     }
 
     .divd{
@@ -358,13 +358,13 @@ body{
   .dive{
     width: 100%;
     padding-bottom: 120px;
-    padding-top: 50px;
+    padding-top: 30px;
   }  
 
   .divc{
     width: 100%;
     padding-bottom: 80px;
-    padding-top: 50px;
+    padding-top: 135px;
   }
 
   .divd{
