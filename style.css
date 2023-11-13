@@ -272,8 +272,41 @@ body{
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     z-index: 99;
   }
+
+}
+
+@media screen and (min-width: 835px) and (max-width: 980px){
+
+  nav .navbar .links li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 8px;
   }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 835px){
+
+  nav .navbar .links li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 4px;
+  }
+
+}
   
+@media (max-width:712px){
+  .logo{
+    margin-bottom: 30px;
+  }
+}
+
 .textos{
   display: flex;
   flex-direction: row;
@@ -328,24 +361,88 @@ body{
 
     .dive{
       width: 100%;
-      padding-bottom: 112px;
+      padding-bottom: 142px;
       padding-top: 50px;
     }  
 
     .divc{
       width: 100%;
-      padding-bottom: 50px;
-      padding-top: 55px;
+      padding-bottom: 180px;
+      padding-top: 105px;
     }
 
-    .divd{
+    /* .divd{
       width: 100%;
-      padding-top: 50px;
-    }
+      padding-top:90px;
+    } */
 
     .logonav{
       display: none;
     }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1250px){
+
+  .dive{
+    padding-bottom: 150px;
+  }
+
+  .divc{
+    padding-bottom: 150px;
+  }
+
+  .divd{
+    padding-bottom: 150px;
+  }
+
+}
+
+@media screen and (min-width: 880px) and (max-width: 1050px){
+
+  .dive{
+    padding-bottom: 220px;
+  }
+
+  .divc{
+    padding-bottom: 220px;
+  }
+
+  .divd{
+    padding-bottom: 220px;
+  }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 880px){
+
+  .dive{
+    padding-bottom: 300px;
+  }
+
+  .divc{
+    padding-bottom: 300px;
+  }
+
+  .divd{
+    padding-bottom: 300px;
+  }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px){
+
+  .dive{
+    padding-bottom: 350px;
+  }
+
+  .divc{
+    padding-bottom: 350px;
+  }
+
+  .divd{
+    padding-bottom: 350px;
+  }
+
 }
 
 @media (max-width: 400px){
@@ -367,10 +464,26 @@ body{
     padding-top: 135px;
   }
 
-  .divd{
+  /* .divd{
     width: 100%;
     padding-top: 80px;
+  } */
+}
+
+@media screen and (min-width: 280px) and (max-width: 400px){
+
+  .dive{
+    padding-bottom: 390px;
   }
+
+  .divc{
+    padding-bottom: 390px;
+  }
+
+  .divd{
+    padding-bottom: 390px;
+  }
+
 }
 
 
