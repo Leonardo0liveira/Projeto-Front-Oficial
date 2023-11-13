@@ -561,7 +561,6 @@ body{
 }
 
 
-
 .text-footer{
     display: flex;
     /* width: 100%; */
@@ -572,7 +571,7 @@ body{
     background-color: #a0aeb0;
     text-align: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 2px;
 }
 
 .anwh{
@@ -644,6 +643,9 @@ width: 100%;
   width: 100%;
 
 
+}
+.nureccsa{
+  color: black;
 }
 /** pesquisadores **/
 
