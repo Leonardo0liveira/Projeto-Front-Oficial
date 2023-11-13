@@ -727,13 +727,15 @@ display:flex;
 /** infraestrutura **/
 
 .infra{
-    display: inline-block;
-    margin-left: 20px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 } 
 
 .tamanho{
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 
