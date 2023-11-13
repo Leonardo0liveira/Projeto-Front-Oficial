@@ -580,7 +580,15 @@ display:flex;
 
 
 
-/** Noticias **/
+/** Novidades **/
 
+.titulos{
+  text-align: center;
+  margin-top: 70px;
+  color: #1a3652;
+}
 
+.Artigo{
+  text-align: center;
+}
 
