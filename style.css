@@ -726,18 +726,26 @@ display:flex;
 /** footer PI é o footer da página de pesquisadores e de infraestrutura, as duas páginas precisaram de um footer adaptado**/
 
 
-/** infraestrutura **/
+/** NURECCSA **/
 
-.infra{
-  display: inline-block;
+.pgotavio1{
+  display: flex;
   margin-left: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-} 
+  align-items: flex-end;
+}
+
+.pgotavio2{
+  margin-left: 20px;
+}
 
 .tamanho{
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
+  margin-bottom: 10px;
+}
+
+.titulo1{
+  text-align: center;
 }
 
 
