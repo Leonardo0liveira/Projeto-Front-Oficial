@@ -11,7 +11,7 @@ body{
     min-height: 100vh;
   }
   nav{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -52,6 +52,7 @@ body{
   nav .navbar .links{
     display: flex;
   }
+
   nav .navbar .links li{
     position: relative;
     display: flex;
@@ -59,6 +60,7 @@ body{
     justify-content: space-between;
     list-style: none;
     padding: 0 14px;
+    
   }
   nav .navbar .links li a{
     height: 100%;
@@ -307,7 +309,7 @@ body{
     height: 90px;
   } 
   nav{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -368,6 +370,7 @@ body{
     align-items: center;
     text-align: center;
     margin: auto;    
+    text-align: justify;
     
 }
 
@@ -380,7 +383,7 @@ body{
     align-items: center;
     text-align: center;
     margin: auto;
-    
+    text-align: justify;    
     
 }
 
@@ -393,9 +396,21 @@ body{
     align-items: center;
     text-align: center;
     margin: auto;
+    text-align: justify;
     
 }
 
+.divc h2{
+  text-align: center;
+}
+
+.dive h2{
+  text-align: center;
+}
+
+.divd h2{
+  text-align: center;
+}
 
 @media (max-width: 700px){
     .textos{
@@ -423,6 +438,10 @@ body{
 
     .logonav{
       display: none;
+    }
+
+    .logo{
+      padding-top: 20px;
     }
 }
 
@@ -537,6 +556,7 @@ body{
     width: 50%;   
     display: none; 
     color: #fff;
+    margin-top: 10px;
     
 }
 
@@ -614,10 +634,7 @@ body{
   display:flex;
   align-items: center;
 }
-.bloco img{
-width: 100%;
 
-}
 .bloco h5{
   margin-top: 2em;
   color: #1a3652;
@@ -626,13 +643,53 @@ width: 100%;
   color:#1a3652;
   margin-left: 2em;
   max-width: 40%;
+  padding-right: 2em;
+}
+
+.bloco .titulop{
+  text-align: center;
+}
+
+.bloco .textoTema{
+  text-align: justify;
+}
+
+.bloco .textoTema h6{
+  text-align: center;
+}
+
+.bloco .imagemp{
+  width: 90%;
+  padding-left: 3%;
 }
 
 @media (max-width: 900px){
   .bloco{
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
   }
+
+  .bloco .imagemp{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+    border-radius: 40px;
+  }
+
+  .bloco .titulop{
+    text-align: center;
+  }
+
+  .bloco .textoTema{
+    text-align: justify;
+    width: 100%;
+  }
+
+  .bloco .textoTema h6{
+    text-align: center;
+  }
+
 }
 .blococuriosidades{
   text-align: center;
@@ -641,9 +698,16 @@ width: 100%;
   padding:1.3em;
   margin-top: 1.5em;
   width: 100%;
-
-
 }
+
+.imagemp{
+  border-radius: 12px;
+}
+
+.titulop{
+  
+}
+
 .nureccsa{
   color: black;
 }
@@ -660,7 +724,14 @@ width: 100%;
   margin-top: 70px;
   color: #1a3652;
 }
-.pesquisador1{
+
+@media (max-width: 700px){
+  .pesquisador{
+    flex-direction: column;
+  }
+}
+
+.pesquisador{
   margin-top: 70px;
   margin-bottom: 40px;
   margin-left: 70px;
@@ -668,7 +739,8 @@ width: 100%;
   display:flex;
   
 }
-.pesquisador2{
+
+/* .pesquisador2{
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 70px;
@@ -709,7 +781,7 @@ margin-bottom: 40px;
 margin-left: 70px;
 margin-right: 70px;
 display:flex;
-}
+} */
 .img-usuario{
   border: 1px solid #000; 
   margin-right: 20px;
@@ -753,4 +825,5 @@ display:flex;
 .Artigo{
   text-align: center;
 }
+
 
