@@ -622,7 +622,6 @@ body{
 }
 .apresentacao h6{
   font-size: 1em;
-  text-align: left;
 }
 
 @media(min-width: 930px){
@@ -656,7 +655,7 @@ body{
 }
 
 .bloco .textoTema h6{
-  text-align: center;
+  text-align: left;
 }
 
 .bloco .imagemp{
