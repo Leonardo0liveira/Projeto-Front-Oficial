@@ -622,6 +622,7 @@ body{
 }
 .apresentacao h6{
   font-size: 1em;
+  text-align: left;
 }
 
 @media(min-width: 930px){
