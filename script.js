@@ -31,15 +31,3 @@ jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    window.addEventListener('scroll', function () {
-      var content = document.querySelector('.textos');
-      var scrollPosition = window.scrollY;
-
-      if (scrollPosition > 1) { // Ajuste esse valor conforme necessário
-        content.classList.add('show');
-      } else {
-        content.classList.remove('show');
-      }
-    });
-  });
