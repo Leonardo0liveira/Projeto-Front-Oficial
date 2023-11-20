@@ -358,15 +358,9 @@ body{
   display: flex;
   flex-direction: row;
   width: 100%;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease; 
+
 }
 
-.show {
-  opacity: 1;
-  transform: translateY(0);
-}
 
 .divd{
     
@@ -413,10 +407,12 @@ body{
 
 .dive h2{
   text-align: center;
+  color: #3d3d3d;
 }
 
 .divd h2{
   text-align: center;
+  color: #3d3d3d;
 }
 
 @media (max-width: 700px){
@@ -655,8 +651,8 @@ body{
 }
 .textoTema{
   color:#1a3652;
-  margin-left: 2em;
-  max-width: 40%;
+  margin-left: 10px;
+  max-width: 50%;
   padding-right: 2em;
 }
 
@@ -674,7 +670,8 @@ body{
 
 .bloco .imagemp{
   width: 90%;
-  padding-left: 3%;
+  margin-left: 20px;
+
 }
 
 @media (max-width: 900px){
@@ -715,15 +712,22 @@ body{
 }
 
 .imagemp{
-  border-radius: 12px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .titulop{
-  
+  border-radius: 50px;
+  margin-left: 5px;
+  text-align: center;
+  color: #1a3652;
 }
 
 .nureccsa{
-  color: black;
+  color: #1a3652;
+  text-align: center;
 }
 /** pesquisadores **/
 
@@ -736,7 +740,8 @@ body{
 .docente{
   text-align: center;
   margin-top: 70px;
-  color: #1a3652;
+  color: #3d3d3d;
+
 }
 
 @media (max-width: 700px){
@@ -796,6 +801,7 @@ margin-left: 70px;
 margin-right: 70px;
 display:flex;
 } */
+
 .img-usuario {
   position: relative;
   width: 140px;
@@ -879,14 +885,48 @@ width: 70%;
 margin-left: 3%;
 }
 
-.footerPI{
-  width: 100%;
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #a0aeb0;
-} 
+.footer-basic {
+  padding:40px 0;
+  background-color:#d9d9d9;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+.descriçao{
+  padding: 20px 0;
+  color:#aaa;
+  text-align: center;
+}
+
+
+.footer-basic .copyright {
+  margin-top:5px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
 /** footer PI é o footer da página de pesquisadores e de infraestrutura, as duas páginas precisaram de um footer adaptado**/
 
 
